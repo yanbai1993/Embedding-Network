@@ -43,6 +43,6 @@ This will evaluate the model with the query and gallery dataset. Note that, we u
 ### evaluate the embeddings for VehicleID dataset 
    For VeRI-776 dataset:
    $ python veri_dist.py
-   Then, you need to copy the dist file into veri_evaluate dir, and run the matlab ""
+   Then, you need to copy the dist file into veri_evaluate dir. we provide an evaluate script, "baseline_evaluation_FACT_776.m", on VeRi following https://github.com/VehicleReId/VeRidataset. 
 
 
